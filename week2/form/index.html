@@ -1,0 +1,59 @@
+<!doctype html>
+<html>
+
+<head>
+ <title>Form</title>
+</head>
+
+<body>
+ <form>
+       <h1>Pizza Order</h1>
+     <label for="yourname">Your Name:</label>
+        <input type="text" required minlength="3" maxlength="10" value="name">
+  <br>
+  <br>
+    <label for="email">Your Email:</label>
+        <input type="email" placeholder="your email" required>
+  <br>
+  <br>
+  <label for="toppings">Toppings:</label>
+      <input type="radio" name="toppings" value="supreme">Supreme
+       <input type="radio" name="toppings" value="vegetarian">vegetarian
+       <input type="radio" name="toppings" value="Hawaian">Hawaian
+<br>
+<br>
+  <label for="sauces">Sauces:</label>
+       <select name="sauces" id="sauces">
+       <option value="tomatoes">tomatoes</option>
+       <option value="spicy">Spicy</option>
+       <option value="sweet">Sweet</option>
+  </select> 
+<br>
+<br>
+  <label for="extras">Extras:</label>
+         <input type="checkbox" name="extra1" value="cheese">Cheese
+         <input type="checkbox" name="extra2" value="onions">Onions
+         <input type="checkbox" name="extra3" value="olives">Olives
+<br>
+<br>
+   <label for="desription">Description:</label>
+      <textarea></textarea>
+  <br>
+  <br>
+  <input type="submit" value="Send Order">
+  <input type="reset" value="Reset">
+
+ <br>
+ <br>
+   <label for="quantity">Quantity:</label>
+     <input type="number" name="quantity" id="quantity" min="1" max="7" value="3">
+ <br>
+ <br>    
+       <label for="delivery">Delivery date:</label>
+          <input type="date" id="delivery">
+
+
+ </form>
+
+</body>
+</html>
