@@ -1,0 +1,278 @@
+<!doctype html>
+<html>
+<head>
+ <title>Travel-Reservation-Form</title>
+</head>
+<body>
+
+
+
+ <h2> Form 1 </h2>
+<form>
+ <label for="name">Nume:</label>
+      <input type="text" value="Nume" required>
+      <input type="text" value="Prenume" required>
+<br>
+<label for="email">Email:</label>
+      <input type="email" placeholder="Your email address" required>
+<br>
+<label for="sex">Sex:</label>
+      <input type="radio" name="sex" value="male" checked>Male
+      <input type="radio" name="sex" value="female">Female
+      <input type="radio" name="sex" value="other">Other 
+<br>
+<label for="tara">Tara:</label>
+<select id="tara" name="tara"> 
+      <option value="Afghanistan">Afghanistan</option>
+      <option value="Albania">Albania</option>
+      <option value="Algeria">Algeria</option>
+      <option value="Bahamas">Bahamas</option>
+      <option value="Belgium">Belgium</option>
+      <option value="Cambodia">Cambodia</option>
+      <option value="Chile">Chile</option>
+      <option value="Denmark">Denmark</option>
+      <option value="Dominica">Dominica</option>
+      <option value="Ecuador">Ecuador</option>
+      <option value="Egypt">Egypt</option>
+      <option value="Fiji">Fiji</option>
+      <option value="Finland">Finland</option>
+      <option value="Gambia">Gambia</option>
+      <option value="Guatemala">Guatemala</option>
+      <option value="Hawaii">Hawaii</option>
+      <option value="Haiti">Haiti</option>
+      <option value="Iceland">Iceland</option>
+      <option value="India">India</option>
+      <option value="Jamaica">Jamaica</option>
+      <option value="Japan">Japan</option>
+      <option value="Kazakhstan">Kazakhstan</option>
+      <option value="Kenya">Kenya</option>
+      <option value="Laos">Laos</option>
+      <option value="Latvia">Latvia</option>
+      <option value="Macau">Macau</option>
+      <option value="Macedonia">Macedonia</option>
+      <option value="Moldova">Moldova</option>
+      <option value="Nambia">Nambia</option>
+      <option value="Nigeria">Nigeria</option>
+      <option value="Oman">Oman</option>
+      <option value="Pakistan">Pakistan</option>
+      <option value="Peru">Peru</option>
+      <option value="Romania">Romania</option>
+      <option value="Russia">Russia</option>
+      <option value="Singapore">Singapore</option>
+      <option value="Sweden">Sweden</option>
+      <option value="Taiwan">Taiwan</option>
+      <option value="Turkey">Turkey</option>
+      <option value="Uganda">Uganda</option>
+      <option value="Ukraine">Ukraine</option>
+      <option value="Vatican">Vatican</option>
+      <option value="Venezuela">Venezuela</option>
+      <option value="Yemen">Yemen</option>
+      <option value="Zambia">Zambia</option>
+      <option value="Zimbabwe">Zimbabwe</option>
+</select>
+<br>
+<label for="oras">Oras:</label>
+      <select id="oras" name="oras">
+      <option value="Bucuresti">Bucuresti</option>
+      <option value="Cluj-Napoca">Cluj-Napoca</option>
+      <option value="Iasi">Iasi</option>
+      <option value="Timisoara">Timisoara</option>
+      <option value="Constanta">Constanta</option>
+      <option value="Craiova">Craiova</option>
+      <option value="Brasov">Brasov</option>
+      <option value="Galati">Galati</option>
+      <option value="Ploiesti">Ploiesti</option>
+      <option value="Oradea">Oradea</option>
+      <option value="Braila">Braila</option>
+      <option value="Arad">Arad</option>
+      <option value="Pitesti">Pitesti</option>
+      <option value="Sibiu">Sibiu</option>
+      <option value="Targu-Neamt">Targu-Neamt</option>
+      <option value="Alba-Iulia">Alba-Iulia</option>
+      </select>
+<br>
+<label for="adresa">Adresa:</label>
+     <input type="text">
+<br>
+<label for="codpostal">Codpostal:</label>
+      <input type="number">
+<br>
+<label for="varsta">Varsta:</label>
+      <input type="number" min="18" max="85">
+<br>
+     <input type="submit" value="Submit">
+     <input type="reset" value="Reset">
+</form>
+
+
+
+
+<h2>Form 2</h2>
+<h1>Travel Reservation Form</h1>
+<h2>Denotes Mandatory*</h2>
+<form>
+  <label for="fullname"><strong>Full Name*:</strong></label>
+      <input type="text" placeholder="Your Name" required>
+<br>
+<br>
+  <label for="email"><strong>Your Email*:</strong></label> 
+        <input type="email" placeholder="Your Email" required>
+<br>
+<br>
+<label for="selecttourpackage"><strong>Select Tour Package*:</strong></label>
+   <select name="package" id="package" required>
+        <option value="Cheap">Cheap</option>
+        <option value="Very-Cheap">Very-Cheap</option>
+        <option value="Extra-Cheap">Extra-Cheap</option>
+   </select>
+ <br>
+ <br>
+<label for="arrivaldate"><strong>Arrival Date*:</strong></label>
+<input type="date" name="date" required>
+<br>
+<br>
+<label for="numberofpersons"><strong>Number Of Persons*:</strong></label>
+        <input type="number" required placeholder="UNKNOWN_TYPE">
+<br>
+<br>
+<label for="whatwouldyouwanttoavail"><strong>What Would You Want To Avail?*:</strong></label>
+<br>
+       <input type="checkbox" name="avail1" value="Boarding" required checked>Boarding
+       <input type="checkbox" name="avail2" value="Fooding" required>Fooding
+       <input type="checkbox" name="avail3" value="Sightseeing" required>Sight seeing
+ <br>
+ <br>
+ <label for="discountcouponcode"><strong>Discount Coupon Code:</strong></label>      
+<br>
+       <input type="number" placeholder="UNKNOWN_TYPE">
+<br>
+<br>
+<label for="termsandconditions"><strong>Terms And Conditions*</strong></label>
+<br>
+       <input type="radio" name="terms" value="I Agree" required>I Agree
+       <input type="radio" name="terms" value="i Disagree">I Disagree
+<br>
+<br>
+<input type="submit" value="Complete Reservation">
+</form>
+<br>
+<br>
+<br>
+
+
+
+
+<h2>Form 3</h2>
+<form>
+<label for="searchfor">Search for:</label>
+      <input type="search" id="site-search" value="chocolate cheesecake recipes" aria-label="Search trough site content" name="search">
+      <button>Search</button>
+<br>
+<br>
+<label for="match">Match:</label>  
+      <input type="radio" name="words" value="Any word" checked>Any Word    
+      <input type="radio" name="words" value="All Words">All Words
+      <input type="radio" name="words" value="Exact Phrase">Exact Phrase
+<br>
+      <input type="checkbox" name="matching" value="Sound-Alike Matching">Sound-Alike matching
+<br>
+<br>
+<label for="date">Dated:</label>
+<br>
+      <input type="radio" name="date" id="date">
+      <select name="dates">
+           <option value="Within The Last Year">Within The Last Year</option>
+           <option value="Within The Next Year">Within The Next Year</option>
+      </select>
+<br>
+<input type="radio" name="date" checked>
+<label>From:<input type="date"></label>
+<br>
+<label>To:<input type="date"></label>
+<br>
+<br>
+<label for="within">Within:</label>
+      <select name="within">
+           <option value="Description">Description</option>
+           <option value="Other">Other</option>
+      </select>
+<br>
+<label for="show">Show:</label>
+      <select name="show">
+           <option value="ten">10</option>
+           <option value="nine">9</option>
+           <option value="eight">8</option>
+           <option value="seven">7</option>
+     </select>
+<label>results</label>
+      <select name="results">
+           <option value="with">with</option>
+      </select>
+<label>summaries</label>
+<br>
+<label for="sortby">Sort By:</label>
+       <select name="sortby">
+           <option value="Relevance">Relevance</option>
+           <option value="Date">Date</option>
+           <option value="Type">Type</option>
+       </select>
+</form>
+
+
+
+<h2>Form 4</h2>
+<form>
+<h1>My feedback form</h1>
+<ul>
+         <li>Name:<input type="text"></li>
+         <li>Email:<input type="email"></li>
+</ul>
+
+<ul>
+<li>Please check all the emotions that apply to you:</li>
+         <li>Angry<input type="checkbox" checked></li>
+         <li>Sad <input type="checkbox"></li>
+         <li>Happy<input type="checkbox"></li>
+         <li>Ambivalent<input type="checkbox"></li>
+</ul>
+<ul>
+<li>How satisfied were you with our service?</li>
+        <li><input type="radio" name="service" value="Very Satisfied" checked>Very satisfied</li>
+        <li><input type="radio" name="service" value="Satisfied">Satisfied</li>
+        <li><input type="radio" name="service" value="Didn't care">Didn't care</li>
+        <li><input type="radio" name="service" value="Dissatified">Dissatified</li>
+        <li><input type="radio" name="service" value="Very Dissatisfied">Very Dissatified</li>
+</ul>
+<ul>
+   <li>
+      <label for="textarea">Further Comments:</label>
+        <textarea name="furthercomments" id="comments" cols="30" rows="2"></textarea>
+   </li>
+</ul>
+<ul>
+ <li>
+  <label for="chooseafile">Bio Photo:</label>
+     <input type="file" accept=".jpg, .jpeg, .png"></li>
+</ul>
+<ul>
+   <li>
+      <label for="locationvisited">Location Visited:</label>
+        <select name="location">
+          <option valule="Select Location">Select location</option>
+     </select>
+   </li>
+</ul>
+<ul>
+ <li><input type="submit"></li>
+</ul>
+</form>
+
+
+
+
+
+
+
+
+</body>
+</html>
