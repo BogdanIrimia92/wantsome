@@ -1,0 +1,23 @@
+.pattern {
+  display: flex;
+  justify-content: center;
+}
+
+.black {
+  border: 1px solid black;
+  width: 200px;
+  height: 200px;
+}
+.white {
+  border: 1px solid black;
+  width: 200px;
+  height: 200px;
+}
+.black:nth-child(2n + 1) {
+  background-color: black;
+}
+
+.white:nth-child(2n) {
+  background-color: black;
+}
+/* functioneaza si cu odd si even */
