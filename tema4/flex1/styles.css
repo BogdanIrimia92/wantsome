@@ -1,0 +1,33 @@
+body {
+ background-color: #e3fdfd;
+ height: 100vh;
+ color: white;
+ margin: 0;
+ font-weight: bold;
+ font-size: 40px;
+}
+
+.align {
+ text-align: center;
+ height: 70px;
+ background-color: rgb(54, 255, 47);
+}
+
+main {
+ display: flex;
+ flex-direction: row;
+ background-color: rgba(54, 255, 47, 0.3);
+ justify-content: space-between;
+ height: 100%;
+ align-items: center;
+ flex-wrap: wrap;
+}
+
+main>div {
+ width: 250px;
+ height: 250px;
+}
+
+div:first-child {
+ margin-left: 100px;
+}
