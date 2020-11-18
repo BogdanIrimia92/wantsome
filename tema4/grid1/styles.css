@@ -1,0 +1,64 @@
+body {
+ background-color: beige;
+ height: 100vh;
+ color: white;
+ font-size: 50px;
+ font-size: 30px;
+}
+
+.container {
+ height: 100%;
+ display: grid;
+ grid-gap: 15px;
+ grid-template-columns: 400px;
+ grid-template-rows: 250px;
+ justify-content: center;
+}
+
+.vertical {
+ padding-left: 40px;
+ background-color: turquoise;
+ grid-column: 1 /1;
+ grid-row: 1/1;
+ text-align: center;
+}
+
+.middle {
+ text-align: center;
+ background-color: royalblue;
+ grid-column: 1 / 1;
+ grid-row: 2 /3;
+}
+
+.tall {
+ padding: 40px;
+ background-color: limegreen;
+ grid-row: 5 / 6;
+ grid-column: 1/1;
+ text-align: center;
+}
+
+.tiles {
+ padding-left: 40px;
+ background-color: gold;
+ grid-column: 1/1;
+ grid-row: 4/5;
+ text-align: center;
+}
+
+.wide {
+ padding: 40px;
+ background-color: crimson;
+ grid-column: 1 / 1;
+ text-align: center;
+}
+
+img {
+ width: 500px;
+ height: 500px;
+}
+
+article {
+ font-size: 30px;
+ font-weight: lighter;
+}
